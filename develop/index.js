@@ -169,7 +169,7 @@ ${answers.questionsGithub}
 ${answers.questionsEmail}
 \n
 `
-        fs.appendFile(path.join('../generatedReadme', 'README.md'), content, err => {
+        fs.appendFile(path.join('../output', 'README.md'), content, err => {
             if (err) {
                 console.error('Error writing file:', err);
                 return;
